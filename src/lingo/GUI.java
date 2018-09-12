@@ -198,6 +198,36 @@ public class GUI extends javax.swing.JPanel {
         return guessedWord;   
     }
     
+    private void fillLabels (int gamesLeft, int label, int R, int G, int B){
+        switch (label) {
+            case 0:  jLabel1.setBackground(new java.awt.Color(R, G, B));
+                     break;
+            case 1:  jLabel2.setBackground(new java.awt.Color(R, G, B));
+                     break;
+            case 2:  jLabel3.setBackground(new java.awt.Color(R, G, B));
+                     break;
+            case 3:  jLabel4.setBackground(new java.awt.Color(R, G, B));
+                     break;
+            case 4:  jLabel5.setBackground(new java.awt.Color(R, G, B));
+                     break;         
+        }
+    }
+    
+    private void fillLabelsText (int gamesLeft, int label, char character){
+        switch (label) {
+            case 0:  jLabel1.setText("" + character);;
+                     break;
+            case 1:  jLabel2.setText("" + character);;
+                     break;
+            case 2:  jLabel3.setText("" + character);;
+                     break;
+            case 3:  jLabel4.setText("" + character);;
+                     break;
+            case 4:  jLabel5.setText("" + character);;
+                     break;         
+        } 
+    }
+    
     private void jTextField_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField_1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField_1ActionPerformed
@@ -358,6 +388,7 @@ public class GUI extends javax.swing.JPanel {
             jButtonMinet.setText("Start New Game!");
             return;
         }
+        
     }//GEN-LAST:event_jButtonMinetActionPerformed
 
 
