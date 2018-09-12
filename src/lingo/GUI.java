@@ -80,11 +80,31 @@ public class GUI extends javax.swing.JPanel {
         jTextField_1 = new javax.swing.JTextField();
         jButtonGuess = new javax.swing.JButton();
         jLabelAtbilde = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel25 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel44 = new javax.swing.JLabel();
+        jLabel43 = new javax.swing.JLabel();
+        jLabel42 = new javax.swing.JLabel();
+        jLabel41 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel33 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel45 = new javax.swing.JLabel();
+        jLabel55 = new javax.swing.JLabel();
+        jLabel54 = new javax.swing.JLabel();
+        jLabel53 = new javax.swing.JLabel();
+        jLabel52 = new javax.swing.JLabel();
+        jLabel51 = new javax.swing.JLabel();
 
         jTextField_1.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
         jTextField_1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -113,70 +133,239 @@ public class GUI extends javax.swing.JPanel {
         jLabelAtbilde.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelAtbilde.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
-        jLabel1.setBackground(new java.awt.Color(204, 204, 204));
-        jLabel1.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setOpaque(true);
+        jLabel11.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel11.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel11.setOpaque(true);
 
-        jLabel2.setBackground(new java.awt.Color(204, 204, 204));
-        jLabel2.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setOpaque(true);
+        jLabel12.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel12.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel12.setOpaque(true);
 
-        jLabel4.setBackground(new java.awt.Color(204, 204, 204));
-        jLabel4.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
-        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setOpaque(true);
+        jLabel14.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel14.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel14.setOpaque(true);
 
-        jLabel3.setBackground(new java.awt.Color(204, 204, 204));
-        jLabel3.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
-        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setOpaque(true);
+        jLabel13.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel13.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel13.setOpaque(true);
 
-        jLabel5.setBackground(new java.awt.Color(204, 204, 204));
-        jLabel5.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
-        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel5.setOpaque(true);
+        jLabel15.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel15.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel15.setOpaque(true);
+
+        jLabel25.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel25.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel25.setOpaque(true);
+
+        jLabel24.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel24.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel24.setOpaque(true);
+
+        jLabel23.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel23.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel23.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel23.setOpaque(true);
+
+        jLabel22.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel22.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel22.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel22.setOpaque(true);
+
+        jLabel21.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel21.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel21.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel21.setOpaque(true);
+
+        jLabel44.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel44.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel44.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel44.setOpaque(true);
+
+        jLabel43.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel43.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel43.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel43.setOpaque(true);
+
+        jLabel42.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel42.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel42.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel42.setOpaque(true);
+
+        jLabel41.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel41.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel41.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel41.setOpaque(true);
+
+        jLabel31.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel31.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel31.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel31.setOpaque(true);
+
+        jLabel32.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel32.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel32.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel32.setOpaque(true);
+
+        jLabel34.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel34.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel34.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel34.setOpaque(true);
+
+        jLabel33.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel33.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel33.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel33.setOpaque(true);
+
+        jLabel35.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel35.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel35.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel35.setOpaque(true);
+
+        jLabel45.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel45.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel45.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel45.setOpaque(true);
+
+        jLabel55.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel55.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel55.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel55.setOpaque(true);
+
+        jLabel54.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel54.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel54.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel54.setOpaque(true);
+
+        jLabel53.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel53.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel53.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel53.setOpaque(true);
+
+        jLabel52.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel52.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel52.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel52.setOpaque(true);
+
+        jLabel51.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel51.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
+        jLabel51.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel51.setOpaque(true);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(58, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(jLabelAtbilde, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButtonGuess, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap(17, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel51, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel52, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel53, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel54, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jTextField_1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(57, 57, 57))
+                        .addComponent(jLabel55, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel41, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel42, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel43, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel44, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel45, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel31, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel32, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel33, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel34, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel35, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel23, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(jLabelAtbilde, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jButtonGuess, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                            .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jTextField_1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addContainerGap(18, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(58, Short.MAX_VALUE)
+                .addContainerGap(73, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel23, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel31, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel32, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel33, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel34, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel35, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel41, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel42, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel43, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel44, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel45, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel51, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel52, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel53, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel54, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel55, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(26, 26, 26)
                 .addComponent(jTextField_1, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(18, 18, 18)
                 .addComponent(jButtonGuess, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabelAtbilde, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addComponent(jLabelAtbilde, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(22, 22, 22))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -199,33 +388,149 @@ public class GUI extends javax.swing.JPanel {
     }
     
     private void fillLabels (int gamesLeft, int label, int R, int G, int B){
-        switch (label) {
-            case 0:  jLabel1.setBackground(new java.awt.Color(R, G, B));
-                     break;
-            case 1:  jLabel2.setBackground(new java.awt.Color(R, G, B));
-                     break;
-            case 2:  jLabel3.setBackground(new java.awt.Color(R, G, B));
-                     break;
-            case 3:  jLabel4.setBackground(new java.awt.Color(R, G, B));
-                     break;
-            case 4:  jLabel5.setBackground(new java.awt.Color(R, G, B));
-                     break;         
+        if(gamesLeft == 4){
+                switch (label) {
+                    case 0:  jLabel11.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 1:  jLabel12.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 2:  jLabel13.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 3:  jLabel14.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 4:  jLabel15.setBackground(new java.awt.Color(R, G, B));
+                             break;         
+                }
+        }
+        if(gamesLeft == 3){
+                switch (label) {
+                    case 0:  jLabel21.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 1:  jLabel22.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 2:  jLabel23.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 3:  jLabel24.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 4:  jLabel25.setBackground(new java.awt.Color(R, G, B));
+                             break;         
+                }                
+        }
+        if(gamesLeft == 2){
+                switch (label) {
+                    case 0:  jLabel31.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 1:  jLabel32.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 2:  jLabel33.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 3:  jLabel34.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 4:  jLabel35.setBackground(new java.awt.Color(R, G, B));
+                             break;         
+                }
+        }
+        if(gamesLeft == 1){
+                switch (label) {
+                    case 0:  jLabel41.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 1:  jLabel42.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 2:  jLabel43.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 3:  jLabel44.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 4:  jLabel45.setBackground(new java.awt.Color(R, G, B));
+                             break;         
+                }                
+        }
+        if(gamesLeft == 0){
+                switch (label) {
+                    case 0:  jLabel51.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 1:  jLabel52.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 2:  jLabel53.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 3:  jLabel54.setBackground(new java.awt.Color(R, G, B));
+                             break;
+                    case 4:  jLabel55.setBackground(new java.awt.Color(R, G, B));
+                             break;         
+                }                
         }
     }
     
     private void fillLabelsText (int gamesLeft, int label, char character){
-        switch (label) {
-            case 0:  jLabel1.setText("" + character);;
-                     break;
-            case 1:  jLabel2.setText("" + character);;
-                     break;
-            case 2:  jLabel3.setText("" + character);;
-                     break;
-            case 3:  jLabel4.setText("" + character);;
-                     break;
-            case 4:  jLabel5.setText("" + character);;
-                     break;         
-        } 
+        if(gamesLeft == 4){
+                switch (label) {
+                    case 0:  jLabel11.setText("" + character);;
+                             break;
+                    case 1:  jLabel12.setText("" + character);;
+                             break;
+                    case 2:  jLabel13.setText("" + character);;
+                             break;
+                    case 3:  jLabel14.setText("" + character);;
+                             break;
+                    case 4:  jLabel15.setText("" + character);;
+                             break;         
+                    }
+        }
+        if(gamesLeft == 3){
+                switch (label) {
+                    case 0:  jLabel21.setText("" + character);;
+                             break;
+                    case 1:  jLabel22.setText("" + character);;
+                             break;
+                    case 2:  jLabel23.setText("" + character);;
+                             break;
+                    case 3:  jLabel24.setText("" + character);;
+                             break;
+                    case 4:  jLabel25.setText("" + character);;
+                             break;         
+                    } 
+        }
+        if(gamesLeft == 2){
+                switch (label) {
+                    case 0:  jLabel31.setText("" + character);;
+                             break;
+                    case 1:  jLabel32.setText("" + character);;
+                             break;
+                    case 2:  jLabel33.setText("" + character);;
+                             break;
+                    case 3:  jLabel34.setText("" + character);;
+                             break;
+                    case 4:  jLabel35.setText("" + character);;
+                             break;         
+                    }
+        }
+        if(gamesLeft == 1){
+                switch (label) {
+                    case 0:  jLabel41.setText("" + character);;
+                             break;
+                    case 1:  jLabel42.setText("" + character);;
+                             break;
+                    case 2:  jLabel43.setText("" + character);;
+                             break;
+                    case 3:  jLabel44.setText("" + character);;
+                             break;
+                    case 4:  jLabel45.setText("" + character);;
+                             break;         
+                    } 
+        }
+        if(gamesLeft == 0){
+                switch (label) {
+                    case 0:  jLabel51.setText("" + character);;
+                             break;
+                    case 1:  jLabel52.setText("" + character);;
+                             break;
+                    case 2:  jLabel53.setText("" + character);;
+                             break;
+                    case 3:  jLabel54.setText("" + character);;
+                             break;
+                    case 4:  jLabel55.setText("" + character);;
+                             break;         
+                    } 
+        }
     }
     
     private void jTextField_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField_1ActionPerformed
@@ -238,7 +543,7 @@ public class GUI extends javax.swing.JPanel {
             word = "APPLE";
             wordArray = word.toCharArray();
             gamesLeft = 5;
-            jLabel1.setText("");
+            jLabel11.setText("");
             newGame=false;
         }
         // Initialize next game
@@ -261,7 +566,7 @@ public class GUI extends javax.swing.JPanel {
         String guessedWord = jTextField_1.getText();    
         guessedWord = checkInput(guessedWord);
         
-        if(checkInput==true && gamesLeft >1){
+        if(checkInput==true && gamesLeft >0){
             gamesLeft = gamesLeft -1; //every time the button is clicked, reduce by remaining games by one 
             jLabelAtbilde.setText("");
             guessedWordArray = guessedWord.toCharArray(); // Create array from guessed word
@@ -269,14 +574,14 @@ public class GUI extends javax.swing.JPanel {
             //Game is won
             if(Arrays.equals(guessedWordArray, wordArray)){
                 jLabelAtbilde.setText("Congratulations, you win!");
-                gamesLeft = 5;
-                repeatedGame=true;
-                jTextField_1.setEnabled(false);
-                jButtonGuess.setText("Start New Game!");
                 for(int i=0; i<5; i++){
                     fillLabels (gamesLeft, i, 153, 255, 102);
                     fillLabelsText (gamesLeft, i , guessedWordArray[i]);
                 }
+                gamesLeft = 5;
+                repeatedGame=true;
+                jTextField_1.setEnabled(false);
+                jButtonGuess.setText("Start New Game!");
                 return;
             }
             // Step 0, create temporal array of wordArray for editing
@@ -296,73 +601,18 @@ public class GUI extends javax.swing.JPanel {
                     temporalArray[i] = '_';                
                 }
             }
-            for(int i=0; i<5; i++){
-                System.out.print(guessedWordArray[i] + "," + temporalArray[i] + ";" );              
-                }
             
-            /*
-            if(guessedWordArray[1] == temporalArray[1]){
-                jLabel2.setBackground(new java.awt.Color(153,255,102));
-                guessedWordArray[1] = '*'; 
-                temporalArray[1] = '_'; 
-            }
-            if(guessedWordArray[2] == temporalArray[2]){
-                jLabel3.setBackground(new java.awt.Color(153,255,102));
-                guessedWordArray[2] = '*'; 
-                temporalArray[2] = '_'; 
-                }
-            if(guessedWordArray[3] == temporalArray[3]){
-                jLabel4.setBackground(new java.awt.Color(153,255,102));
-                guessedWordArray[3] = '*'; 
-                temporalArray[3] = '_'; 
-                }
-            if(guessedWordArray[4] == temporalArray[4]){
-                jLabel5.setBackground(new java.awt.Color(153,255,102));
-                guessedWordArray[4] = '*'; 
-                temporalArray[4] = '_'; 
-                }
-            */
             // Step 3, mark labels that have correct letter but wrong place
-            System.out.print("\n"); 
             for(int i=0; i<5; i++){
                 for(int j=0; j<5; j++){
                     if (guessedWordArray[i] == temporalArray[j]){
-                        System.out.print(guessedWordArray[i] + "," + temporalArray[j] + ";" ); 
-                        System.out.print("\n");
                         guessedWordArray[i] = '*';
                         temporalArray[j] = '_';
-                        fillLabels (gamesLeft, i, 255, 204, 102);
-                        System.out.print(guessedWordArray[i] + "," + temporalArray[j] + ";" );              
+                        fillLabels (gamesLeft, i, 255, 204, 102);             
                     }
-                    /*
-                        if (guessedWordArray[0] == temporalArray[j]){
-                            guessedWordArray[0] = '*';
-                            temporalArray[0] = '_';
-                            jLabel1.setBackground(new java.awt.Color(255,204,102)); 
-                        }
-                        if (guessedWordArray[1] == temporalArray[j]){
-                            guessedWordArray[1] = '*';
-                            temporalArray[1] = '_';
-                            jLabel2.setBackground(new java.awt.Color(255,204,102)); 
-                        }
-                        if (guessedWordArray[2] == temporalArray[j]){
-                            guessedWordArray[2] = '*';
-                            temporalArray[2] = '_';
-                            jLabel3.setBackground(new java.awt.Color(255,204,102)); 
-            }
-                        if(guessedWordArray[3] == temporalArray[2]){
-                            guessedWordArray[3] = '*';
-                            temporalArray[3] = '_';
-                            jLabel4.setBackground(new java.awt.Color(255,204,102));
-                        }
-                        if (guessedWordArray[4] == temporalArray[j]){
-                            guessedWordArray[4] = '*';
-                            temporalArray[4] = '_';
-                            jLabel5.setBackground(new java.awt.Color(255,204,102)); 
-                        }
-                    */
                 }
             }
+            System.out.print(gamesLeft); 
 
         jLabelAtbilde.setText(gamesLeft + " attempts left!");  
         }
@@ -384,11 +634,31 @@ public class GUI extends javax.swing.JPanel {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButtonGuess;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel45;
+    private javax.swing.JLabel jLabel51;
+    private javax.swing.JLabel jLabel52;
+    private javax.swing.JLabel jLabel53;
+    private javax.swing.JLabel jLabel54;
+    private javax.swing.JLabel jLabel55;
     private javax.swing.JLabel jLabelAtbilde;
     private javax.swing.JTextField jTextField_1;
     // End of variables declaration//GEN-END:variables
