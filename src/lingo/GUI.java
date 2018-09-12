@@ -19,6 +19,7 @@ public class GUI extends javax.swing.JPanel {
         int gamesLeft = 0;
         char[] wordArray = word.toCharArray();
         char[] temporalArray = new char[5];
+        char[] guessedWordArray;
         
         boolean checkInput = false;
         boolean newGame = true;
@@ -77,7 +78,7 @@ public class GUI extends javax.swing.JPanel {
     private void initComponents() {
 
         jTextField_1 = new javax.swing.JTextField();
-        jButtonMinet = new javax.swing.JButton();
+        jButtonGuess = new javax.swing.JButton();
         jLabelAtbilde = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -96,15 +97,15 @@ public class GUI extends javax.swing.JPanel {
             }
         });
 
-        jButtonMinet.setBackground(new java.awt.Color(255, 204, 102));
-        jButtonMinet.setFont(new java.awt.Font("Roboto", 0, 18)); // NOI18N
-        jButtonMinet.setText("Guess!");
-        jButtonMinet.setActionCommand("");
-        jButtonMinet.setBorder(null);
-        jButtonMinet.setBorderPainted(false);
-        jButtonMinet.addActionListener(new java.awt.event.ActionListener() {
+        jButtonGuess.setBackground(new java.awt.Color(255, 204, 102));
+        jButtonGuess.setFont(new java.awt.Font("Roboto", 0, 18)); // NOI18N
+        jButtonGuess.setText("Guess!");
+        jButtonGuess.setActionCommand("");
+        jButtonGuess.setBorder(null);
+        jButtonGuess.setBorderPainted(false);
+        jButtonGuess.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonMinetActionPerformed(evt);
+                jButtonGuessActionPerformed(evt);
             }
         });
 
@@ -145,19 +146,18 @@ public class GUI extends javax.swing.JPanel {
                 .addContainerGap(58, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addComponent(jLabelAtbilde, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(jButtonMinet, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addComponent(jTextField_1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addComponent(jButtonGuess, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTextField_1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(57, 57, 57))
         );
         layout.setVerticalGroup(
@@ -173,7 +173,7 @@ public class GUI extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jTextField_1, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButtonMinet, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jButtonGuess, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabelAtbilde, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
@@ -232,8 +232,7 @@ public class GUI extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField_1ActionPerformed
 
-    private void jButtonMinetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonMinetActionPerformed
-        //TODO ko darīt kad burts atkārtojas 2 reizes??
+    private void jButtonGuessActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonGuessActionPerformed
         // Initialize first game and select random word
         if(newGame==true){
             word = "APPLE";
@@ -247,128 +246,123 @@ public class GUI extends javax.swing.JPanel {
             word = RandomWords();
             wordArray = word.toCharArray();
             gamesLeft = 5;
-            jLabel1.setText("");
-            jButtonMinet.setText("Guess!");
+            jButtonGuess.setText("Guess!");
             jTextField_1.setText("");
-            jLabel1.setBackground(new java.awt.Color(204,204,204));
-            jLabel2.setText("");
-            jLabel2.setBackground(new java.awt.Color(204,204,204));            
-            jLabel3.setText("");
-            jLabel3.setBackground(new java.awt.Color(204,204,204));
-            jLabel4.setText("");
-            jLabel4.setBackground(new java.awt.Color(204,204,204)); 
-            jLabel5.setText("");
-            jLabel5.setBackground(new java.awt.Color(204,204,204));
+            for(int i=0; i<5; i++){
+                fillLabels (5, i, 204, 204, 204);
+                fillLabelsText (5, i ,' ');
+            }
             jTextField_1.setEnabled(true);
             repeatedGame=false;
             return;
         }
         
-        //Read word from field, check input
+        //Read word from field, check input function
         String guessedWord = jTextField_1.getText();    
         guessedWord = checkInput(guessedWord);
         
-        
         if(checkInput==true && gamesLeft >1){
-            gamesLeft = gamesLeft -1; //every time when button is clicked, reduce by remaining clicks by one 
+            gamesLeft = gamesLeft -1; //every time the button is clicked, reduce by remaining games by one 
             jLabelAtbilde.setText("");
-            char[] guessedWordArray = guessedWord.toCharArray(); // Create array wrom guessed word
-            for(int i=0; i<5; i++){
-                temporalArray[i] = 0;
-                }
-                    
-            // Step 1, mark all labels as incorrect
-            jLabel1.setText("" + guessedWordArray[0]);
-            jLabel1.setBackground(new java.awt.Color(255,51,51));
-            jLabel2.setText("" + guessedWordArray[1]);
-            jLabel2.setBackground(new java.awt.Color(255,51,51));            
-            jLabel3.setText("" + guessedWordArray[2]);
-            jLabel3.setBackground(new java.awt.Color(255,51,51));
-            jLabel4.setText("" + guessedWordArray[3]);
-            jLabel4.setBackground(new java.awt.Color(255,51,51)); 
-            jLabel5.setText("" + guessedWordArray[4]);
-            jLabel5.setBackground(new java.awt.Color(255,51,51));
+            guessedWordArray = guessedWord.toCharArray(); // Create array from guessed word
             
-            // Step 1.2, create array of letters with correct place, so see if they will repeat
-            if(guessedWordArray[0] == wordArray[0]){
-                temporalArray[0] = guessedWordArray[0];
-                }
-            if(guessedWordArray[1] == wordArray[1]){
-                temporalArray[1] = guessedWordArray[1];
-                }
-            if(guessedWordArray[2] == wordArray[2]){
-                temporalArray[2] = guessedWordArray[2];
-                }
-            if(guessedWordArray[3] == wordArray[3]){
-                temporalArray[3] = guessedWordArray[3];
-                }
-            if(guessedWordArray[4] == wordArray[4]){
-                temporalArray[4] = guessedWordArray[4];
-                } 
-            
-            // Step 2, mark labels that have correct letter (ignore place)
-            for(int i=0; i<5; i++){
-                for(int j=0; j<5; j++){
-                    if(guessedWordArray[i] == wordArray[j]){
-                        if(guessedWordArray[0] == temporalArray[0]){
-                            temporalArray[0] = 0;
-                        }
-                        else if (guessedWordArray[0] == wordArray[j]){
-                            jLabel2.setBackground(new java.awt.Color(255,204,102)); 
-                        }
-                        if(guessedWordArray[1] == temporalArray[1]){
-                            temporalArray[1] = 0;
-                        }
-                        else if (guessedWordArray[1] == wordArray[j]){
-                            jLabel2.setBackground(new java.awt.Color(255,204,102)); 
-                        }
-                        if(guessedWordArray[2] == temporalArray[2]){
-                            temporalArray[2] = 0;
-                        }
-                        else if (guessedWordArray[2] == wordArray[j]){
-                            jLabel2.setBackground(new java.awt.Color(255,204,102)); 
-                        }
-                        if(guessedWordArray[3] == temporalArray[3]){
-                            temporalArray[3] = 0;
-                        }
-                        else if (guessedWordArray[3] == wordArray[j]){
-                            jLabel2.setBackground(new java.awt.Color(255,204,102)); 
-                        }         
-                        if(guessedWordArray[4] == temporalArray[4]){
-                            temporalArray[4] = 0;
-                        }
-                        else if (guessedWordArray[4] == wordArray[j]){
-                            jLabel2.setBackground(new java.awt.Color(255,204,102)); 
-                        }                             
-                    }
-                }
-
-                //Step 3, mark all labels that have correct letter and place
-                if(guessedWordArray[0] == wordArray[0]){
-                    jLabel1.setBackground(new java.awt.Color(153,255,102));
-                    }
-                if(guessedWordArray[1] == wordArray[1]){
-                    jLabel2.setBackground(new java.awt.Color(153,255,102));
-                    }
-                if(guessedWordArray[2] == wordArray[2]){
-                    jLabel3.setBackground(new java.awt.Color(153,255,102));
-                    }
-                if(guessedWordArray[3] == wordArray[3]){
-                    jLabel4.setBackground(new java.awt.Color(153,255,102));
-                    }
-                if(guessedWordArray[4] == wordArray[4]){
-                    jLabel5.setBackground(new java.awt.Color(153,255,102));
-                    } 
-            }
+            //Game is won
             if(Arrays.equals(guessedWordArray, wordArray)){
                 jLabelAtbilde.setText("Congratulations, you win!");
                 gamesLeft = 5;
                 repeatedGame=true;
                 jTextField_1.setEnabled(false);
-                jButtonMinet.setText("Start New Game!");
+                jButtonGuess.setText("Start New Game!");
+                for(int i=0; i<5; i++){
+                    fillLabels (gamesLeft, i, 153, 255, 102);
+                    fillLabelsText (gamesLeft, i , guessedWordArray[i]);
+                }
                 return;
             }
-        
+            // Step 0, create temporal array of wordArray for editing
+            System.arraycopy(wordArray, 0, temporalArray, 0, 5);
+            
+            // Step 1, mark all labels as incorrect
+            for(int i=0; i<5; i++){
+                fillLabels (gamesLeft, i, 255, 51, 51);
+                fillLabelsText (gamesLeft, i , guessedWordArray[i]);
+            }
+            
+            //Step 2, mark all labels that have correct letter and place and take out of temporal array
+            for(int i=0; i<5; i++){
+                if(guessedWordArray[i] == temporalArray[i]){
+                    fillLabels (gamesLeft, i, 153, 255, 102);
+                    guessedWordArray[i] = '*'; 
+                    temporalArray[i] = '_';                
+                }
+            }
+            for(int i=0; i<5; i++){
+                System.out.print(guessedWordArray[i] + "," + temporalArray[i] + ";" );              
+                }
+            
+            /*
+            if(guessedWordArray[1] == temporalArray[1]){
+                jLabel2.setBackground(new java.awt.Color(153,255,102));
+                guessedWordArray[1] = '*'; 
+                temporalArray[1] = '_'; 
+            }
+            if(guessedWordArray[2] == temporalArray[2]){
+                jLabel3.setBackground(new java.awt.Color(153,255,102));
+                guessedWordArray[2] = '*'; 
+                temporalArray[2] = '_'; 
+                }
+            if(guessedWordArray[3] == temporalArray[3]){
+                jLabel4.setBackground(new java.awt.Color(153,255,102));
+                guessedWordArray[3] = '*'; 
+                temporalArray[3] = '_'; 
+                }
+            if(guessedWordArray[4] == temporalArray[4]){
+                jLabel5.setBackground(new java.awt.Color(153,255,102));
+                guessedWordArray[4] = '*'; 
+                temporalArray[4] = '_'; 
+                }
+            */
+            // Step 3, mark labels that have correct letter but wrong place
+            System.out.print("\n"); 
+            for(int i=0; i<5; i++){
+                for(int j=0; j<5; j++){
+                    if (guessedWordArray[i] == temporalArray[j]){
+                        System.out.print(guessedWordArray[i] + "," + temporalArray[j] + ";" ); 
+                        System.out.print("\n");
+                        guessedWordArray[i] = '*';
+                        temporalArray[j] = '_';
+                        fillLabels (gamesLeft, i, 255, 204, 102);
+                        System.out.print(guessedWordArray[i] + "," + temporalArray[j] + ";" );              
+                    }
+                    /*
+                        if (guessedWordArray[0] == temporalArray[j]){
+                            guessedWordArray[0] = '*';
+                            temporalArray[0] = '_';
+                            jLabel1.setBackground(new java.awt.Color(255,204,102)); 
+                        }
+                        if (guessedWordArray[1] == temporalArray[j]){
+                            guessedWordArray[1] = '*';
+                            temporalArray[1] = '_';
+                            jLabel2.setBackground(new java.awt.Color(255,204,102)); 
+                        }
+                        if (guessedWordArray[2] == temporalArray[j]){
+                            guessedWordArray[2] = '*';
+                            temporalArray[2] = '_';
+                            jLabel3.setBackground(new java.awt.Color(255,204,102)); 
+            }
+                        if(guessedWordArray[3] == temporalArray[2]){
+                            guessedWordArray[3] = '*';
+                            temporalArray[3] = '_';
+                            jLabel4.setBackground(new java.awt.Color(255,204,102));
+                        }
+                        if (guessedWordArray[4] == temporalArray[j]){
+                            guessedWordArray[4] = '*';
+                            temporalArray[4] = '_';
+                            jLabel5.setBackground(new java.awt.Color(255,204,102)); 
+                        }
+                    */
+                }
+            }
 
         jLabelAtbilde.setText(gamesLeft + " attempts left!");  
         }
@@ -382,15 +376,14 @@ public class GUI extends javax.swing.JPanel {
             gamesLeft = 5;
             repeatedGame=true;
             jTextField_1.setEnabled(false);
-            jButtonMinet.setText("Start New Game!");
+            jButtonGuess.setText("Start New Game!");
             return;
         }
-        
-    }//GEN-LAST:event_jButtonMinetActionPerformed
+    }//GEN-LAST:event_jButtonGuessActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButtonMinet;
+    private javax.swing.JButton jButtonGuess;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
