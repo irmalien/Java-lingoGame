@@ -7,6 +7,7 @@ package lingo;
 
 import java.util.Arrays;
 import java.util.Random;
+import java.awt.event.KeyEvent;
 
 /**
  *
@@ -114,6 +115,11 @@ public class GUI extends javax.swing.JPanel {
         jTextField_1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField_1ActionPerformed(evt);
+            }
+        });
+        jTextField_1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jTextField_1KeyPressed(evt);
             }
         });
 
@@ -533,11 +539,7 @@ public class GUI extends javax.swing.JPanel {
         }
     }
     
-    private void jTextField_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField_1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField_1ActionPerformed
-
-    private void jButtonGuessActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonGuessActionPerformed
+    private void gameMechanics(){
         // Initialize first game and select random word
         if(newGame==true){
             word = "APPLE";
@@ -553,9 +555,12 @@ public class GUI extends javax.swing.JPanel {
             gamesLeft = 5;
             jButtonGuess.setText("Guess!");
             jTextField_1.setText("");
+            jLabelAtbilde.setText("");
             for(int i=0; i<5; i++){
-                fillLabels (5, i, 204, 204, 204);
-                fillLabelsText (5, i ,' ');
+                for(int j=0; j<5; j++){
+                fillLabels (j, i, 204, 204, 204);
+                fillLabelsText (j, i ,' ');
+                }
             }
             jTextField_1.setEnabled(true);
             repeatedGame=false;
@@ -578,9 +583,7 @@ public class GUI extends javax.swing.JPanel {
                     fillLabels (gamesLeft, i, 153, 255, 102);
                     fillLabelsText (gamesLeft, i , guessedWordArray[i]);
                 }
-                gamesLeft = 5;
                 repeatedGame=true;
-                jTextField_1.setEnabled(false);
                 jButtonGuess.setText("Start New Game!");
                 return;
             }
@@ -623,13 +626,26 @@ public class GUI extends javax.swing.JPanel {
         else{
             jTextField_1.setText(word);
             jLabelAtbilde.setText("Game over, you lost");
-            gamesLeft = 5;
             repeatedGame=true;
-            jTextField_1.setEnabled(false);
             jButtonGuess.setText("Start New Game!");
             return;
         }
+    }
+    
+    private void jTextField_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField_1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField_1ActionPerformed
+
+    private void jButtonGuessActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonGuessActionPerformed
+        gameMechanics();
     }//GEN-LAST:event_jButtonGuessActionPerformed
+
+    private void jTextField_1KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField_1KeyPressed
+        if (evt.getKeyCode() == KeyEvent.VK_ENTER) {
+            gameMechanics();
+            evt.consume();
+        }        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField_1KeyPressed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
